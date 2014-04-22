@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+
+  "name": "Xeko Extensions",
+  "description": "Make you can get HD Stream on cms talk vn",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "Xeko.png"
+  },
+	"content_scripts": [
+        {
+        "matches": [
+            "http://tv.csmtalk.vn/pewpewvn"
+            ],
+        "js": ["background.js"],
+        "run_at": "document_end"         // pay attention to this line
+        }
+    ], 
+	"web_accessible_resources" : ["my_file.js"],
+  "permissions": [
+    "tabs","http://tv.csmtalk.vn/pewpewvn"
+    ]
+}
