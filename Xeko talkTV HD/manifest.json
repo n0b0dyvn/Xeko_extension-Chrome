@@ -13,7 +13,7 @@
         "matches": [
             "http://tv.csmtalk.vn/pewpewvn"
             ],
-        "js": ["background.js"],
+        "js": ["content.js"],
         "run_at": "document_end"         // pay attention to this line
         }
     ], 
