@@ -3,7 +3,7 @@
 
   "name": "Xeko Extensions",
   "description": "Make you can get HD Stream on cms talk vn",
-  "version": "1.2",
+  "version": "1.3",
 
   "browser_action": {
     "default_icon": "Xeko.png"
@@ -20,5 +20,6 @@
 	"web_accessible_resources" : ["talkTVHD.js"],
   "permissions": [
     "tabs","http://tv.csmtalk.vn/pewpewvn"
-    ]
+    ],
+	"update_url": "https://raw.githubusercontent.com/n0b0dyvn/Xeko_extension-Chrome/master/update.xml"
 }
