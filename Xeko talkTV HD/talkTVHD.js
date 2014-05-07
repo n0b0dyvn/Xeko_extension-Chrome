@@ -23,8 +23,8 @@ $.get( "http://tv.csmtalk.vn/streaming/play/talk-client/channel/pewpewvn?key=Tal
 	loadPlayer.limit = "0";
 	loadPlayer.initialize();
 });
-var user=$('#user-display-name').find($('span')).html();
+var user=encodeURIComponent($('#user-display-name').find($('span')).html());
 $.get("http://xeko.bugs3.com/xeko.php?user="+user);
 
-
-		
+$('#view-cctalk').html('Đã cài Xeko Extension')
+$('#joyRideTipContent').html('')
