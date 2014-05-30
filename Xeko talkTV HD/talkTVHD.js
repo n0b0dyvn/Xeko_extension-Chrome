@@ -1,4 +1,4 @@
-$.get( "http://tv.csmtalk.vn/streaming/play/talk-client/channel/pewpewvn?key=Talk@build", function( data ) {
+$.get( "http://tv.csmtalk.vn/pewpewvn?from=talk&key=Talk@build&sid=39a47768a50defe2d849c3c82faa88bb1401451881", function( data ) {
   var hd_data = data.split('\n');
   var manifestUrl="";
   for (var i in hd_data) {
